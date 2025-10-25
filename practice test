@@ -1,0 +1,78 @@
+1. a variable defined within a method 
+- local variable
+2. Variables that are not local variables are known as?
+- instance variables
+
+3. in scope form declaration until program ends
+- global variable
+
+4. in scope from declaration until object garbage collected
+- instance variable
+
+5. in scope from declaration to end of block
+- local variable
+
+6. Identify the order of elements in a class 
+from the highest to lowest in hierarchy
+- package, import, class, variable, method
+
+7. 
+
+8. What is the term for a Java feature that automatically looks
+for objects that aren't needed anymore.
+- destroying objects
+
+9. What is the method that performs destroying of objects?
+- 
+10. This refers to the process of automatically 
+freeing memory on the leap by deleting objects that 
+are not longer reachable in your program?
+- garbage collection
+11. What is the method that you use when you need to 
+manually perform garbage collection?
+- System.gc();
+
+12. identify the value type of each keyword: 
+- boolean - true or false 
+- byte - 8 bit two's complement int
+- short - 16 bit two's complement int
+- int - 32 bit two's complement int
+- long - 64 bit two's complement int
+- float - 32 bit two's complement floating point
+- double - 64 bit two's complement floating point
+- char - 16 bit two's complement unicode
+
+
+13. How do you get the largest integer value in Java? 
+System.out.println(Integer.MAX_VALUE);
+14. When a number is present in the code, it is called? 
+literal
+Improve the value of million1 to make it easier to read:
+int million1 = 1000000;
+million1 = 1_000_000;
+double Test1 = _1111.00; -> Will this compile?
+No
+double test2 = 1000.00_; -> Will this compile?
+No
+double test3 = 1_00_0.0_0; -> will this compile?
+Yes
+double tes4 = 1000_.00; -> Will this compile?
+No
+16. A reference type refers to what? 
+(object, an instance of a class)
+a user-defined type (class type)
+
+17. Create a reference type of the Date class.
+java.util.Date today;
+
+18. can reference types be assigned null?
+you can do it to a String data type but not an integer data type.
+19. What happens ifyou give a primitive type a null value.
+it's not going to point to a null because it is of type int.
+20. it refers to data types that do not currently refer to an object.
+- reference type
+21. This is a name for a piece of memory that stores data.
+variable
+
+22. 
+
